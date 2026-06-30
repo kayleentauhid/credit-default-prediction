@@ -163,7 +163,7 @@
     "from sklearn.preprocessing import StandardScaler\n",
     "\n",
     "# Load dataset\n",
-    "df = pd.read_csv(\"UCI_Credit_Card.csv\")\n",
+    "df = pd.read_csv("data/UCI_Credit_Card.csv")\n",
     "\n",
     "target_col = \"default.payment.next.month\"\n",
     "\n",
